@@ -1,5 +1,5 @@
 # TouchSomeGrass
-Coco and Yuki's Orbital 2023 Project
+An Orbital 2023 Project by Coco Li and Ang Yuki.
 
 Team Name: TouchSomeGrass
 
