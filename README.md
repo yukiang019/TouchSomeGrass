@@ -1,7 +1,8 @@
 # TouchSomeGrass
 An Orbital 2023 Project by Coco Li and Ang Yuki.
 
-Team Name: TouchSomeGrass
+### Team Name
+TouchSomeGrass
 
 ### Proposed Level of Achievement
 Apollo 11 
