@@ -7,13 +7,13 @@ TouchSomeGrass
 ### Proposed Level of Achievement
 Apollo 11 
 
-## Project scope
-A mental health mobile application that allows the user to journal, meditate, and discuss with others in a gamified environment to cultivate good mental health habits.
+## Project Scope
+We have created a mental health mobile application that allows users to journal, meditate, and discuss mental health topics with others in a gamified environment to cultivate good mental health habits.
 
 At the home page of the application, users will see the available features represented as icons at the bottom, as well as a graphic of a tree that represents their progress in terms of improving and tracking their mental health. When the user accesses the journaling and meditation functions of the application, they gain experience points that contribute to the growth of their tree.
 
 
-## Problem motivation
+## Problem Motivation
 When you have exams, assignments, and projects all due, it can be difficult to take care of your mental health, reflect and manage the stress of studying for everything, which is when your wellbeing may take a backseat.
 
 However, support for mental health improvement is not always accessible. After all, meditation does not come easily to everyone, and it may be difficult to remember to journal and self reflect daily. Moreover, most people do not have access to appropriate platforms that are specialised for discussing their mental health. 
