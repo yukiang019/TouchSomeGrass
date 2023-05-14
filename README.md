@@ -38,8 +38,8 @@ The last feature is the gamification of the user’s progress. In the home page 
 ## User Stories
 1. As a user that is constantly overwhelmed and has a lot on my mind, I want to use an application with a journaling function to articulate my own thoughts more clearly.
 2. As a user that wishes to discuss mental health in a safe space dedicated for such discussions, I want to use an application that is able to provide this sort of space.
-3. As a user who treats mental wellness as a constant work in progress,  I want to be able to see the progress I have made in my mental health through some type of physical representation.  
-4. As a user of applications, I want to use an application that is aesthetically pleasing.
+3. As a user who treats mental wellness as a constant work in progress, I want to be able to see the progress I have made in my mental health through some type of physical representation.  
+4. As a user of applications, I want to use an application that is aesthetically pleasing as it puts me in a good mood.
 5. As a user, I want to be guided in meditation as I find it difficult to start on my own.
 6. As a user, I want to be aware of the actionable insights regarding my own mental health, and an application to guide me.
 7. As a user, I want to have an original and engaging way to track my mental health progress.
