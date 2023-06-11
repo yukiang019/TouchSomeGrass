@@ -44,7 +44,8 @@ The last feature is the gamification of the user’s progress. In the home page 
 6. As a user, I want to be aware of the actionable insights regarding my own mental health, and an application to guide me.
 7. As a user, I want to have an original and engaging way to track my mental health progress.
 
-
+## Tech Stack
+Expo Go, Firebase, ReactNative, Figma
 ## Features and Timeline
 <img width="505" alt="Screenshot 2023-05-12 at 4 54 41 PM" src="https://github.com/yukiang019/TouchSomeGrass/assets/122513777/5f311e2e-9acc-4adf-89be-1cab92e8e506">
 
