@@ -99,10 +99,14 @@ For the journaling function, our main challenge was the saving of the journal en
 
 Description
 
+The meditation function allows users to conveniently experience guided meditation. It allows users to conduct 10 minute meditation sessions, which we have identified as the optimal duration for daily mindfulness. Everybody can afford to spare 10 minutes of their day to exercise mindfulness and experience moments of reflection amid their busy lives. Meditation has the ability to provide a sense of calm, peace and balance that can benefit a person’s emotional well-being. 
 
-The meditation function allows users to experience guided meditation...
+Upon pressing the "start" button, the meditation countdown begins. As long as the timer is running, the narration in the background will also be playing to provide users with instructions and prompts for effective meditation. The "start" button becomes a "pause" button when the timer is running, and back to "start" when the "pause" button is pressed. This allows users to conveniently pause and resume their session as they wish. The narration will also resume from where it was stopped, so users can have the full meditation experience even if they choose to take some breaks in between.
 
-Additionally, there will be a guided meditation feature that allows users to have moments of mindfulness amid their busy lives. Meditation has the ability to provide a sense of calm, peace and balance that can benefit a person’s emotional well-being. Accessing the function allows the user to pull up a video with a 10 minute countdown, where the user can meditate for 10 minutes while listening to the soothing sounds of nature.
+Once the 10 minute timer is up, a soft "ding" sound is played to alert the user that the session has ended, in case the user has become so immersed in the meditation that they failed to pay attention to the timer. Should they wish to extend their session and go for another 10 minutes, they can simply press the "reset" button to bring the timer back to 10 minutes, and press "start" again.
+
+This feature was created to make meditation straight-forward and fuss-free for busy Singaporeans. 
+
 
 ### Diagrams
 ![image](https://github.com/yukiang019/TouchSomeGrass/assets/125233966/ff2029f1-8590-4d5e-b7ed-69e01e77ee5a)
