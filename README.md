@@ -47,8 +47,11 @@ At the home page of the application, users will see the available features repre
 
 ## Features
 
-### User Account Authentication 
+### User Account Authentication
+
 Description
+
+
 As TouchSomeGrass is a personalised mental health app, every user will needs to be uniquely authenticated with
 their own account.
 
@@ -66,6 +69,8 @@ displayed when the user enters an invalid input.
 When the user successfully logs in or signs up, they will be directed to the Welcome page, and their account will be reflected within the Firebase authentication.
 
 Challenges
+
+
 For user authentication, our main challenge was checking whether the user was an existing one or not, and directing existing users to the Welcome page. Initially, we experienced difficulties in differentiating between log in and sign up with Firebase authentication. Having two different calls to Firebase depending on whether or not the user exists allows for the problem to be resolved.
 
 ### Diagrams
@@ -74,6 +79,8 @@ For user authentication, our main challenge was checking whether the user was an
 ### Journaling
 
 Description
+
+
 The journaling function allows users to pen down anything that comes to their mind, especially when they are feeling overwhelmed. This feature provides them with an opportunity to articulate their state of mind at any moment by simply accessing the function within the application on their smartphone, which is easier than carrying around a physical journal. 
 
 In the journaling page, the date is displayed. The function also provides title and content input bars for the user to jot down their feelings, thoughts, or present state of mind with the touch of a finger. We also provide an icon selection tab for every entry that allows the user to select one icon out of five that represents their mood when writing the entry. 
@@ -81,6 +88,8 @@ In the journaling page, the date is displayed. The function also provides title 
 After entering all the relevant details, the user is able to submit their entry by pressing the save button, which will then save the entry to the bottom of the page with the date the entry was made, their mood, and the title and content of their journal. An alert will appear once the entry is successfully submitted. Users are able to review past entries by simply scrolling through the existing entries, and reflect on their moods as well as feelings over time. This allows them to gain insight on their mental health and moods, and instils mindfulness through the healthy coping strategy. However, if the user feels that any of their past entries are no longer representative of their point of view, or disagree with the mindset they had at the time of submission of the entry, they are able to delete the entry by pressing and holding on it. A message confirming the deletion of the entry will appear, and the user is able to delete it by pressing the Confirm option.
 
 Challenges
+
+
 For the journaling function, our main challenge was the saving of the journal entries within the Journal page, and making sure that the entries were able to be accessed and deleted. We were able to achieve this by assigning each entry with a unique ID using react-uuid to identify each individual entry.
 
 ### Diagrams
@@ -89,6 +98,8 @@ For the journaling function, our main challenge was the saving of the journal en
 ### Meditation
 
 Description
+
+
 The meditation function allows users to experience guided meditation...
 
 Additionally, there will be a guided meditation feature that allows users to have moments of mindfulness amid their busy lives. Meditation has the ability to provide a sense of calm, peace and balance that can benefit a person’s emotional well-being. Accessing the function allows the user to pull up a video with a 10 minute countdown, where the user can meditate for 10 minutes while listening to the soothing sounds of nature.
@@ -99,6 +110,8 @@ Additionally, there will be a guided meditation feature that allows users to hav
 ### The Healing Circle
 
 Description
+
+
 The Healing Circle is a discussion function which allows users to be part of a community where they are able to discuss mental health issues without stigmatisation. The forum function will provide users with a sense of belonging and a feeling of purpose, as they are able to receive and give support to each other in their mental health journey through giving advice, encouragement or simply being a listening ear.
 
 This feature will be implemented by Milestone 3.
@@ -106,26 +119,8 @@ This feature will be implemented by Milestone 3.
 ### Gamification
 
 Description
-To incentivise users to continue using the app, we have implemented three main elements of
-gamification
-1. Login streak
-2. Tier system
-3. Accomplishment badges
-This three information is accessible inside the user card that can be found in the Analytics
-Page. As the name suggests, login streak tracks the consecutive number of days the user has
-logged in.
-Secondly, the user XP can be gained when performing certain actions in the app such as
-logging and completing tasks and milestones. The corresponding tier title is shown below the
-name in the user card. The amount of XP can also help to generate the progress bar around
-the user’s profile image.
 
-EVOLVE
 
-39
-
-For the badges, only up to 4 can be displayed within the user card in the Analytics Page.
-However, users can view their collections under the Customise Badges tab under Settings.
-From there, they can choose the 4 badges they want to display in the Analytics Page.
 The last feature is the gamification of the user’s progress to incentivise users to keep up healthy habits and keep using the app. We have implemented one main element of gamification 
 1. Plant growth
 
@@ -143,17 +138,28 @@ screenshots here
 diagram here
 
 ## Software Engineering Practices
+
 ### Agile Software Development Cycle
+Agile software development is a collaborative approach that prioritizes adaptability, customer satisfaction, and continuous improvement. It emphasizes frequent delivery of working software increments, close collaboration with customers, flexible planning, self-organizing teams, and a focus on learning and adapting throughout the development process.
+
+Using agile development, we have divided our  project into smaller, manageable units called "sprints" or iterations, usually lasting from one to four weeks. 
+
+During each sprint, our team members take on the roles of developers, testers, designers, working together to deliver a functioning software increment. This iterative approach allows for faster delivery of software features and enables teams to adapt to changing requirements and customer needs.
+
+This also allows us to mitigate risks early on in our software development journey and improve the quality of our final product. 
 
 ### Version Control
 Branching
+
 We used Github for version control and to manage our code. When developing new features, we branch off to a feature branch with the feature name. By doing so, we simplify the debugging process by preventing cross-contamination of code. After completing the feature, the branch is committed and a pull request is completed to merge the feature branch into the main. 
 
 Pull requests
+
 We used Githhub's pull request when updating the main branch. The
 member responsible for programming the feature creates a pull request, assigning the other member to review their code, which enables communication and prevents bugs in the code. Once the code is reviewed and approved, the pull request is completed.
 
 Git Issues
+
 We used Git Issues to keep track of all open issues or bugs within the code. We also included tags
 in order to identify the type of issue we encountered. Once the problem has been debugged, the issue is closed.
 
@@ -179,9 +185,13 @@ The main challenge we faced in designing a user interface was creating our desir
 
 ## Tech Stack
 Expo Go (Mobile app development)
+
 Firebase (Account authentication)
+
 ReactNative (Mobile app development)
+
 Figma (User Interface design)
+
 Git and Github (Version control, issue tracking)
 
 ## Features and Timeline
