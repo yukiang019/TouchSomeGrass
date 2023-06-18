@@ -139,7 +139,7 @@ This feature will be implemented by Milestone 3.
 screenshots here
 
 ## Unified Modelling Language (UML) Diagrams
-diagram here
+![image](https://github.com/yukiang019/TouchSomeGrass/assets/125233966/e175dbc2-c788-40cf-af76-6f2ecc84734b)
 
 ## Software Engineering Practices
 
