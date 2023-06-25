@@ -6,21 +6,22 @@ Github link: https://github.com/yukiang019/TouchSomeGrass
 TouchSomeGrass
 
 ## Proof of Concept
-milestone 2 video here
+[milestone 2 video here](https://drive.google.com/file/d/1lJvdBUCuoBKYGajFf_TwNlU4OGAMdozk/view?usp=share_link)
 
 ## Deployment
-Refer to the attached apk file: apk file here
+Please download the Expo Go application to best experience TouchSomeGrass.
+[deploy application here](https://expo.dev/@yukiang019/grass?serviceType=classic&distribution=expo-go)
 
 ## Proposed Level of Achievement
 Apollo 11 
 
 ## Aim
-TouchSomeGrass aims to be a multifunctional mental health app which enables our users to take care of their mental health by utilizing  different forms of stress relief and providing physical proof of growth to encourage the development of healthy mental health habits. 
+TouchSomeGrass aims to be a multifunctional mental health app that enables our users to take care of their mental health by utilizing different forms of stress relief and providing physical proof of growth to encourage the development of healthy mental health habits. 
 
 ## Problem Motivation
 When you have exams, assignments, and projects all due, it can be difficult to take care of your mental health, reflect and manage the stress of studying for everything, which is when your wellbeing may take a backseat.
 
-However, support for mental health improvement is not always accessible. After all, meditation does not come easily to everyone, and it may be difficult to remember to journal and self reflect daily. Moreover, most people do not have access to appropriate platforms that are specialised for discussing their mental health. 
+However, support for mental health improvement is not always accessible. After all, meditation does not come easily to everyone, and it may be difficult to remember to journal and self-reflect daily. Moreover, most people do not have access to appropriate platforms that are specialised for discussing their mental health. 
 
 Given that mental health is such an important aspect of a person’s overall well-being, we have decided to create a one-stop application with various features to make mental health management much more accessible to individuals.
 
@@ -28,18 +29,18 @@ Given that mental health is such an important aspect of a person’s overall wel
 
 TouchSomeGrass will be a helpful and easy tool for users to try out different stress relief methods such as journaling and meditation, which can be daunting to beginners. The journaling function will allow users to document their daily lives, which is easier to do on a mobile phone. The meditation function plays a guided meditation audio which facilitates the user's initial forays into meditation, helping users to develop these healthy habits.
 
-TouchSomeGrass will provide users with a forum to freely discuss mental health issues that may be difficult to ask in person, especially with existing stigma towards mental health issues.
+TouchSomeGrass will provide users with a forum to freely discuss mental health issues that may be difficult to ask in person, especially with the existing stigma towards mental health issues.
 
 TouchSomeGrass will help users to track their progress in developing healthy mental health habits with gamification, representing their progress with journaling and meditation with a plant that grows, allowing users to develop greater awareness of their growth, and prompting them to continue using the app, influencing their mental and emotional well-being. By habitually practicing these healthy habits, TouchSomeGrass allows users to build the foundation for long-term mental health habits.
 
 ## Project Scope
 We have created a mental health mobile application that allows users to journal, meditate, and discuss mental health topics with others in a gamified environment to cultivate good mental health habits.
 
-At the home page of the application, users will see the available features represented as icons at the bottom, as well as a graphic of a tree that represents their progress in terms of improving and tracking their mental health. When the user accesses the journaling and meditation functions of the application, they gain experience points that contribute to the growth of their tree. 
+On the home page of the application, users will see the available features represented as icons at the bottom, as well as a graphic of a tree that represents their progress in terms of improving and tracking their mental health. When the user accesses the journaling and meditation functions of the application, they gain experience points that contribute to the growth of their tree. 
 
 ## User Stories
 1. As a user that is constantly overwhelmed and has a lot on my mind, I want to use an application with a journaling function to articulate my own thoughts more clearly.
-2. As a user that wishes to discuss mental health in a safe space dedicated for such discussions, I want to use an application that is able to provide this sort of space.
+2. As a user that wishes to discuss mental health in a safe space dedicated to such discussions, I want to use an application that is able to provide this sort of space.
 3. As a user who treats mental wellness as a constant work in progress, I want to be able to see the progress I have made in my mental health through some type of physical representation.  
 4. As a user of applications, I want to use an application that is aesthetically pleasing as it puts me in a good mood.
 5. As a user, I want to be guided in meditation as I find it difficult to start on my own.
@@ -53,7 +54,7 @@ At the home page of the application, users will see the available features repre
 Description
 
 
-As TouchSomeGrass is a personalised mental health app, every user will needs to be uniquely authenticated with
+As TouchSomeGrass is a personalised mental health app, every user will need to be uniquely authenticated with
 their own account.
 
 TouchSomeGrass has implemented 1 main sign-in method:
