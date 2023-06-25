@@ -10,7 +10,7 @@ TouchSomeGrass
 
 ## Deployment
 Please download the Expo Go application to best experience TouchSomeGrass.
-[Deploy Application Here](exp://exp.host/@yukiang019/grass?release-channel=default)
+[Deploy Application Here](exp://exp.host/@yukiang019/grass?release-channel=default) 
 
 ## Proposed Level of Achievement
 Apollo 11 
