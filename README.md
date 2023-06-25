@@ -6,7 +6,7 @@ Github link: https://github.com/yukiang019/TouchSomeGrass
 TouchSomeGrass
 
 ## Proof of Concept
-[milestone 2 video here](https://drive.google.com/file/d/1lJvdBUCuoBKYGajFf_TwNlU4OGAMdozk/view?usp=share_link)
+[Milestone 2 Video here](https://drive.google.com/file/d/1lJvdBUCuoBKYGajFf_TwNlU4OGAMdozk/view?usp=share_link)
 
 ## Deployment
 Please download the Expo Go application to best experience TouchSomeGrass.
@@ -46,6 +46,9 @@ On the home page of the application, users will see the available features repre
 5. As a user, I want to be guided in meditation as I find it difficult to start on my own.
 6. As a user, I want to be aware of the actionable insights regarding my own mental health, and an application to guide me.
 7. As a user, I want to have an original and engaging way to track my mental health progress.
+
+## User and Automated Testing 
+[View our records of User and Automated Testing here](https://docs.google.com/document/d/1TWTVDlDH6iAHePlVBNua_Ps-Eofc95keRDdeiF5v418/edit)
 
 ## Features
 
@@ -138,7 +141,7 @@ This feature will be implemented by Milestone 3.
 ![image](https://github.com/yukiang019/TouchSomeGrass/assets/125233966/a290aea5-f03c-48a9-9ca4-dd9adaf90420)
 
 ## User Interface Design
-screenshots here
+[View our User Interface Design here](https://drive.google.com/file/d/1lJvdBUCuoBKYGajFf_TwNlU4OGAMdozk/view?usp=share_link)
 
 ## Unified Modelling Language (UML) Diagrams
 ![image](https://github.com/yukiang019/TouchSomeGrass/assets/125233966/e175dbc2-c788-40cf-af76-6f2ecc84734b)
