@@ -139,7 +139,7 @@ As the name suggests, the plant growth gamification is represented by a plant in
 This feature will be implemented by Milestone 3.
 
 ## Overall Navigation Flow
-![image](https://github.com/yukiang019/TouchSomeGrass/assets/125233966/a290aea5-f03c-48a9-9ca4-dd9adaf90420)
+![image](https://github.com/yukiang019/TouchSomeGrass/assets/125233966/009f3ba3-19af-48c7-9781-705ea67d07a1)
 
 ## User Interface Design
 [View our User Interface Design here](https://drive.google.com/file/d/1lJvdBUCuoBKYGajFf_TwNlU4OGAMdozk/view?usp=share_link)
