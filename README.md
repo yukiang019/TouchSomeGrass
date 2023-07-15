@@ -161,7 +161,7 @@ This also allows us to mitigate risks early on in our software development journ
 ### Version Control
 Branching
 
-We used Github for version control and to manage our code. When developing new features, we branch off to a feature branch with the feature name. By doing so, we simplify the debugging process by preventing cross-contamination of code. After completing the feature, the branch is committed and a pull request is completed to merge the feature branch into the main. 
+We used GitHub for version control and to manage our code. When developing new features, we branch off to a feature branch with the feature name. By doing so, we simplify the debugging process by preventing cross-contamination of code. After completing the feature, the branch is committed and a pull request is completed to merge the feature branch into the main. 
 
 Pull requests
 
@@ -175,33 +175,51 @@ in order to identify the type of issue we encountered. Once the problem has been
 
 Debugging Challenges
 
-1.
-Bug Description: Unknown errors arose when there were conflicting dependencies installed using npm. We suspect that it occurred due to the installation of a number of dependencies that we needed to run our automated tests. 
+Bug #1
 
-Bug Impact: This was by far the biggest hurdle of our project, as this bug prevented us from even running the application on Expo Go even though the code was correct. As such, the best option for us was the rebuild the application entirely and refer to our old model as reference. 
+Bug Description:
+Unknown errors arose when there were conflicting dependencies installed using npm. We suspect that it happened while we were installing quite a number of dependencies that we needed to run our automated tests. 
 
-Bug Resolution: Upon further investigation, we realised that npm was the cause of these dependencies issues. Compared to npm, Yarn uses a different dependency resolution algorithm than npm. Yarn uses a "lockfile" (yarn.lock) to ensure deterministic and consistent installations across different environments. This means that Yarn will always install the exact versions of dependencies specified in the lockfile, avoiding any potential conflicts. In contrast, npm's dependency resolution algorithm can sometimes lead to different versions being installed, which can cause compatibility issues. We then decided that it would be better for us to start our project on a clean slate by rebuilding our application on Yarn and work with Yarn for the rest of our project.
+Bug Impact: 
+This was by far the biggest hurdle of our project, as this bug prevented us from even running the application on expo go even though the code was correct. As such, the best option for us was to rebuild the application entirely and refer to our old model as reference. 
 
-Bug Prevention: To prevent similar issues from arising, we have been working purely on Yarn. We also ensure that the application is properly saved and displayed via Expo Go whenever changes are made, such that we can troubleshoot as soon as possible and with more accuracy if needed. We also made sure that we are installing the correct versions of the required dependencies from the get go, to minimise dependency conflicts as much as possible.
+Bug Resolution:
+Upon further investigation, we realised that npm was the cause of these dependency issues all along. Compared to npm, Yarn uses a different dependency resolution algorithm than npm. Yarn uses a "lockfile" (yarn.lock) to ensure deterministic and consistent installations across different environments. This means that Yarn will always install the exact versions of dependencies specified in the lockfile, avoiding any potential conflicts. In contrast, npm's dependency resolution algorithm can sometimes lead to different versions being installed, which can cause compatibility issues. We then decided that it would be better for us to start our project on a clean slate by rebuilding our application on yarn and work on yarn for the rest of our project.
+
+Bug Prevention: 
+To prevent similar issues from arising in the future, we have been working purely on yarn. We also ensure to check that the application is properly saved and displayed via expo go whenever some changes are made, such that we can troubleshoot as soon as possible and with more accuracy if needed. We also made sure that we are installing the correct versions of the required dependencies from the get go, to minimise these dependency conflicts as much as possible.
  
 
-2.
-Bug Description: Another bug we encountered was related to the storage of Firebase user data. Specifically, the user data was not being stored correctly, which resulted in the inability to utilize Firebase for storing other user details.
+Bug #2
 
-Bug Impact: Since Firebase is commonly used for storing user data in web and mobile applications, the inability to store user data prevented the proper functioning of the various features that relied on this data, namely the gamification, discussion page and journal functions. As a result, the application faced limitations in terms of user registration, authentication, and personalized user experiences.
+Bug Description:
+Another bug we encountered was related to the storage of Firebase user data. Specifically, the user data was not being stored correctly, which resulted in the inability to utilise Firebase for storing other user details.
 
-Bug Resolution: To resolve this issue, a thorough investigation was conducted to identify the root cause of the problem. It was discovered that the bug stemmed from an incorrect configuration or usage of Firebase's data storage mechanism. The code responsible for storing user data in Firebase was reviewed and analyzed to identify any logical errors or incorrect usage patterns. It turned out that the code was not written to install Firestore appropriately and as such Firestore was not configured to store the user data. This explained why we could not see the user data being stored properly on our firebase console. After identifying the problem, the imports and code was modified to properly set up firestore. The problem was since solved. 
+Bug Impact: 
+Since Firebase is commonly used for storing user data in web and mobile applications, the inability to store user data prevented the proper functioning of the various features that relied on this data, namely the gamification, discussion page and journal functions. As a result, the application faced limitations in terms of user registration, authentication, and personalised user experiences.
 
-Bug Prevention: We learnt that we should always solve technical problems with a top-down approach. Only when we looked at the problem in its appropriate order, starting from the entering of user data to the storage and then the retrieval, did we realise that the firebase setup was the issue all this while. As such, we have adapted to using this technique when encountering any bugs. 
- 
-3.
-Bug Description: Another bug encountered in the project was related to the real-time updating of displayed data. Despite updating the underlying data, the displayed information on the user interface did not reflect these changes promptly.
+Bug Resolution:
+To resolve this issue, a thorough investigation was conducted to identify the root cause of the problem. It was discovered that the bug stemmed from an incorrect configuration or usage of Firebase's data storage mechanism. The code responsible for storing user data in Firebase was reviewed and analysed to identify any logical errors or incorrect usage patterns. It turned out that the code was not written to install firestore appropriately and as such firestore was not configured to store the user data. This explained why we could not see the user data being stored properly on our firebase console. After identifying the problem, the imports and code was modified to properly set up firebase’s firestore. The problem has since been solved. 
 
-Bug Impact: The main feature that was affected was the discussion function. When the user sets a new username for themselves, this change failed to be reflected in the chat room unless the whole application was reloaded.
+Bug Prevention: 
+We learnt that we should always solve technical problems with a top-down approach. Only when we looked at the problem in its appropriate order, starting from the entering of user data to the storage and then the retrieval, did we realise that the firebase setup was the issue all this while. As such, we would like to use this technique to solve any future technical issues.
 
-Bug Resolution: The initial workaround for this issue was making the users log out when they changed their username, but it was long winded and did not make sense. This bug had a negative impact on the user experience as it led to a discrepancy between the actual data and the displayed information. Users may have received outdated or incorrect information, causing confusion and potential errors in decision-making and communication. There was a need for real-time data integration. We then decided to utilize listeners, which can be used to update the firebase data real time. Listeners were incorporated into the relevant components to monitor changes in the underlying data. These listeners were designed to trigger an update in the displayed information whenever a change occurred. The listener function was then configured to synchronize the displayed data with the updated information. This involved retrieving the updated data from the backend or relevant data source and reflecting it in the user interface. The username could then be properly updated.
 
-Bug Prevention: To prevent similar issues in the future, real-time data integration was prioritized from the initial design phase when developing new components or features. This approach ensures that the user interface is always in sync with the underlying data.
+Bug #3
+
+Bug Description:
+Another bug encountered in the project was related to the real-time updating of displayed data. Despite updating the underlying data, the displayed information on the user interface did not reflect these changes promptly.
+
+Bug Impact:
+The main feature that was affected was the discussion function. When the user sets a new username for themselves, this change failed to be reflected in the chat room unless the whole application was reloaded. The initial workaround for this issue was making the users log out when they changed their username, but it was long winded and did not make sense.
+This bug had a negative impact on the user experience as it led to a discrepancy between the actual data and the displayed information. Users may have received outdated or incorrect information, causing confusion and potential errors in decision-making and communication. We had overlooked the need for real-time data integration.
+
+Bug Resolution: 
+We then chanced upon the idea of listeners, which can be used to update the firebase data real time. Listeners were incorporated into the relevant components to monitor changes in the underlying data. These listeners were designed to trigger an update in the displayed information whenever a change occurred. The listener function was then configured to synchronise the displayed data with the updated information. This involved retrieving the updated data from the backend or relevant data source and reflecting it in the user interface. The username could then be properly updated.
+
+Bug Prevention:
+To prevent similar issues in the future, real-time data integration was prioritised from the initial design phase when developing new components or features. This approach ensures that the user interface is always in sync with the underlying data.
+
 
 ### Security Measures
 The private keys and tokens to our Firebase Authentication are enclosed in the .env file inside .gitignore so that it is not uploaded to the main branch when committing changes, ensuring that no unwanted changes are made.
