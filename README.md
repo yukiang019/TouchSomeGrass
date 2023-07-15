@@ -128,19 +128,34 @@ Description
 
 The Healing Circle is a discussion function which allows users to be part of a community where they are able to discuss mental health issues without stigmatisation. The forum function will provide users with a sense of belonging and a feeling of purpose, as they are able to receive and give support to each other in their mental health journey through giving advice, encouragement or simply being a listening ear.
 
-This feature will be implemented by Milestone 3.
+In order to use the discussion function, users have to first enter their desired username in the Profile Page. Pressing the "Reset Username" button will then save their username. Other users will be able to see their username with any messages they send in The Healing Circle, which allows users to personalize their experience, making it more customized and fun. 
+
+In the discussion page, a text input bar is displayed at the bottom of the page. Users can type in their message and send it by pressing the send button, which will display their message above the text input bar. They will also be able to see other users' responses in the page, as well as their usernames, and have meaningful discussions on mental health.
+
+Challenges
+
+
+One challenge we faced in implementing this function was the difficulty of allowing users to change their usernames should they wish to. We overcame this by using listeners to allow users to update and change their usernames in the Profile page.
+
+### Diagrams
+![image](https://github.com/yukiang019/TouchSomeGrass/assets/125233966/d0948e32-88a0-4804-a7b6-75b114702df7)
+
 
 ### Gamification
 
 Description
 
 
-The last feature is the gamification of the user’s progress to incentivise users to keep up healthy habits and keep using the app. We have implemented one main element of gamification 
-1. Plant growth
+The last feature is the gamification of the user’s progress to incentivise users to keep up healthy habits and keep using the app. We have implemented two main elements of gamification:
 
-As the name suggests, the plant growth gamification is represented by a plant in the home page which will grow each time the journaling and meditation functions are used. User XP is gained when they use the journaling and guided meditation functions, and when an XP milestone is achieved, the tree will experience growth. This allows the user to see a physical representation of the progress they have made with thei r mental health, which will encourage them to keep up the good habits.
+1. Point system
 
-This feature will be implemented by Milestone 3.
+Every user has zero points when they first sign up. The user's points are displayed in the Home page. Points can be gained by using the three core functions of the app. Journaling gives the user 5 points, meditation 10 points, and sending a message is 1 point. 
+
+2. Plant growth
+
+As the name suggests, the plant growth gamification is represented by a plant in the Home page which will grow each time the journaling, meditation and discussion functions are used. The tree starts off as a small sapling. Every 50 points are gained, the tree will experience growth. This allows the user to see a physical representation of the progress they have made with their mental health, which will encourage them to keep up the good habits.
+
 
 ## Overall Navigation Flow
 ![image](https://github.com/yukiang019/TouchSomeGrass/assets/125233966/009f3ba3-19af-48c7-9781-705ea67d07a1)
@@ -230,13 +245,23 @@ The private keys and tokens to our Firebase Authentication are enclosed in the .
 
 ## Quality Control
 ### Automated Testing
-Automated testing is important in order to test the app's features and fix bugs, making sure the app performs as expected.
-testing info here
+Automated testing is important in order to test the app's features and fix bugs, making sure the app performs as expected. For TouchSomeGrass, we conducted Unit Testing, which tests a single function, method or class.
 
 ### User Testing
-User testing was also done with people matching our target audience. User testing is the process of having end users test and evaluate
-the product or feature.
-testing info here
+We conducted user testing with people of different age groups who were interested in using apps to develop healthy mental health habits. User testing is the process of having end users test and evaluate the product or feature.
+
+Using Donald A. Norman’s seven fundamental design principles, we employed the following criteria to help users test our app: 
+1. Discoverability: Allows the user to understand where to perform actions.
+2. Conceptual Models: Are simple explanations of how something works.
+3. Affordance: Refers to the perceived properties of an object.
+4. Mappings: Are the relationships between the controls and their effects.
+5. Signifiers: Tell the user exactly where to perform an action.
+6. Constraints: Restrict the interactions that can take place.
+7. Feedback: Communicates the response of a user’s action.
+
+Test users from three different age groups were given specific tasks to complete with the app, with the Login Page as their initial starting point. We took down their thoughts and actions to help us understand how users find the app, and gain insight on the areas for improvement. We also conducted a survey about our app and its functions, and documented the users’ feedback to help further improve our app.
+
+More information on the User Testing and Automated Testing conducted is given here: https://docs.google.com/document/d/1TWTVDlDH6iAHePlVBNua_Ps-Eofc95keRDdeiF5v418/edit
 
 ## Challenges faced
 Lack of testing resources
@@ -248,7 +273,7 @@ The main challenge we faced in designing a user interface was creating our desir
 ## Tech Stack
 Expo Go (Mobile app development)
 
-Firebase (Account authentication)
+Firebase and Firestore (Account authentication and Backend service)
 
 ReactNative (Mobile app development)
 
