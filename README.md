@@ -9,9 +9,13 @@ TouchSomeGrass
 [Milestone 2 Video here](https://drive.google.com/file/d/1lJvdBUCuoBKYGajFf_TwNlU4OGAMdozk/view?usp=share_link)
 
 ## Deployment
-Please download the Expo Go application to best experience TouchSomeGrass.
-
-[Deploy Application Here](https://expo.dev/@yukiang019/grass?serviceType=classic&distribution=expo-go)
+Please download the Expo Go application to best experience TouchSomeGrass. Follow the steps outlined below:
+1. Download Expo Go on your mobile phone.
+2. Tap on this link : [Deployed Application Here](https://expo.dev/@yukiang019/grass?serviceType=classic&distribution=expo-go)
+3. In the app,
+   enter your email or this test email : testuser@gmail.com
+   enter any password or this test password : testuser123
+4. Press Sign Up
 
 ## Proposed Level of Achievement
 Apollo 11 
