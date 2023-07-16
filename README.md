@@ -21,38 +21,40 @@ Git and Github (Version control, issue tracking)
 ## Getting Started
 
 ### Prerequisites
-📱 EXPO GO: Download on your iPhone or Android.
 
-### Installation
-Once you have Expo Go installed, login to Expo Go on your mobile phone with the following credentials:
+Please download the Expo Go application to best experience TouchSomeGrass. Follow the steps outlined below:
 
-email: orbitaltouchsomegrass2023@gmail.com
-
-password: touchinggrass2023!
-
-You can now run TouchSomeGrass on your local device by...
-
-1.
-Running the following in your command line
-- Clone the repo: 
-git clone https://github.com/yukiang019/TouchSomeGrass.git
-- Install NPM packages: 
-npm install / yarn install
-- Start the app: 
-expo start / yarn start
-
-OR
-
-Tap on this link : [Deployed Application Here](https://expo.dev/@yukiang019/grass?serviceType=classic&distribution=expo-go)
-
-2.
-In the app, enter your email, enter any password and press Sign Up
+1. Download Expo Go on your mobile phone.
+   
+2. Upon downloading Expo Go, login with the following credentials 
+    - **email**: [orbitaltouchsomegrass2023@gmail.com](mailto:orbitaltouchsomegrass2023@gmail.com)
+    - **password**: touchinggrass2023!
+    
+    Logging into Expo Go with this specific account will grant you full access to our application.
+    
+3. After logging in with the above Expo Go account, tap on this link to access the TouchSomeGrass application :
+   [Deployed Application Here](https://expo.dev/@touchsomegrass/grass-final?serviceType=classic&distribution=expo-go)
+   
+4. In the app, you can try using a user testing account that we have created. Simply log in with the following credentials and then click “Login”.
+    - test email : [testuser@gmail.com](mailto:testuser@gmail.com)
+      
+    - test password : testuser123
+5. Alternatively, you may attempt to create your own account.
+    
+    Simply enter any email that has not been registered before, along with a password of your choice and then click “Sign Up”. You will be automatically logged into the newly created account upon doing so.
+    
 
 OR
 
-enter this test email : [testuser@gmail.com](mailto:testuser@gmail.com) , enter this test password : testuser123 
+Run the following in your command line
 
-and press Login
+- Clone the repo:
+ git clone https://github.com/yukiang019/TouchSomeGrass.git
+- Install NPM packages:
+ npm install / yarn install
+- Start the app:
+ expo start / yarn start
+
 
 ### Usage
 
