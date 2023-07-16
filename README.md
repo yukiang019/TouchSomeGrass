@@ -34,11 +34,11 @@ You can now run TouchSomeGrass on your local device by...
 
 1.
 Running the following in your command line
-- Clone the repo
+- Clone the repo: 
 git clone https://github.com/yukiang019/TouchSomeGrass.git
-- Install NPM packages
+- Install NPM packages: 
 npm install / yarn install
-- Start the app
+- Start the app: 
 expo start / yarn start
 
 OR
