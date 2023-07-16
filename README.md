@@ -24,7 +24,13 @@ Git and Github (Version control, issue tracking)
 📱 EXPO GO: Download on your iPhone or Android.
 
 ### Installation
-Once you have Expo Go installed, you can run it on your local device by...
+Once you have Expo Go installed, login to Expo Go on your mobile phone with the following credentials:
+
+email: orbitaltouchsomegrass2023@gmail.com
+
+password: touchinggrass2023!
+
+You can now run TouchSomeGrass on your local device by...
 
 1.
 Running the following in your command line
@@ -39,11 +45,14 @@ OR
 
 Tap on this link : [Deployed Application Here](https://expo.dev/@yukiang019/grass?serviceType=classic&distribution=expo-go)
 
-2. In the app,
-   enter your email or this test email : testuser@gmail.com
-   
-   enter any password or this test password : testuser123
-4. Press Sign Up
+2.
+In the app, enter your email, enter any password and press Sign Up
+
+OR
+
+enter this test email : [testuser@gmail.com](mailto:testuser@gmail.com) , enter this test password : testuser123 
+
+and press Login
 
 ### Usage
 
