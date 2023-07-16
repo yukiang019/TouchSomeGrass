@@ -3,3 +3,10 @@ node_modules
 
 # Ignore files related to API keys
 .env
+
+#logs
+logs
+*.log
+yarn-error.log*
+
+yarn.lock
