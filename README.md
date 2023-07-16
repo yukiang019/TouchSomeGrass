@@ -40,8 +40,9 @@ Tap on this link : [Deployed Application Here](https://expo.dev/@yukiang019/gras
 
 2. In the app,
    enter your email or this test email : testuser@gmail.com
+   
    enter any password or this test password : testuser123
-3. Press Sign Up
+4. Press Sign Up
 
 ### Usage
 
