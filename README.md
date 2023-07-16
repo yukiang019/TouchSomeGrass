@@ -26,7 +26,8 @@ Git and Github (Version control, issue tracking)
 ### Installation
 Once you have Expo Go installed, you can run it on your local device by...
 
-1. Running the following in your command line
+1.
+Running the following in your command line
 - Clone the repo
 git clone https://github.com/yukiang019/TouchSomeGrass.git
 - Install NPM packages
