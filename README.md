@@ -20,7 +20,7 @@ Git and Github (Version control, issue tracking)
 
 ## Getting Started
 
-### Prerequisites
+### Prerequisites 
 
 Please download the Expo Go application to best experience TouchSomeGrass. Follow the steps outlined below:
 
